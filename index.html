@@ -6,20 +6,37 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>GETTING STARTED WITH BRACKETS</title>
         <meta name="description" content="An interactive getting started guide for Brackets.">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+        <script src="js/animation.js"></script>
     </head>
     <body>
-        <h1>git 2 уровень</h1>
+        
+<script>
+$(document.body).click(function () {
+$("div:hidden:first").fadeIn("slow");
+});
+</script>
 
+
+        <h1>git 2 уровень</h1>
+        <span>Кликать тут...</span>
+
+<div id="boss">
    <div id="div1"></div>
 
    <div id="div2"></div>
 
-   <div id="div3"></div> 
+   <div id="div3"></div>
+    
+</div>
+        <button id="button" onclick="window.location.reload(); return false;">RESET</button>
+        
 
+        <div id="boss2">
        <p>Here at GitHub, our developers, writers, and designers use branches for keeping bug fixes and feature work separate from our master (production) branch. When a change is ready, they merge their branch into master.</p>
         <p>Галуження — це розмежування від основної лінії розробки. Git дозволяє створити декілька гілок і перемикатися між ними. Це корисно, оскільки дозволяє працювати декільком розробникам над своїм функціоналом не заважаючи іншим і не псуючи основу гілку. За замовчуванням, Git створює гілку з назвою master. Гілка в Git просто являє собою вказівник на одну із фіксацій. При кожній новій фіксації гілка в Git рухається автоматично (тобто перемикається на фіксацію). Гілка є простим файлом, який містить 40 символів контрольної суми SHA-1 фіксації. Створення нової гілки дуже швидке, оскільки це однаково запису в файл 41 байта (40 символів + символ нового рядка).</p>
-
+        </div>
 
     </body>
 </html>

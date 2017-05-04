@@ -1,0 +1,64 @@
+body{
+
+    background: greenyellow;
+    width: 600px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 82px;
+    margin-left: 50px;
+}
+body{
+    font-size: 32px;
+
+}
+p{
+    margin-left: 10px;
+    font-size: 20px
+}
+#boss{
+    width: 600px;
+    height: 200px;
+    
+}
+
+
+  #div1 { 
+    
+    width:200px;
+    display:none;
+    height:200px;
+    float:left;
+    background: red; 
+}
+ #div2 {
+      
+    width:200px;
+    display:none;
+    height:200px;
+    float:left;
+    background: green;
+}
+ #div3 {
+   
+    width:200px;
+    display:none;
+    height:200px;
+    float:left;
+    background: black;
+}
+#button{
+     color: #fff; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: rgb(212,75,56); /* фон кнопки */
+  padding: .7em 1.5em; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+  width: 200px;
+  margin-left: 200px
+      
+    
+}
+
+#button:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
+#button:active { background: rgb(152,15,0); } /* при нажатии */
