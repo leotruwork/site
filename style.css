@@ -11,3 +11,15 @@ body{
     font-size: 32px;
 
 }
+#div1{
+    width: 200px;
+    height: 200px;
+    background: red;
+    float: left;
+}
+#div2{
+    width: 200px;
+    height: 200px;
+    background: green;
+    margin-left: 210px;
+}
